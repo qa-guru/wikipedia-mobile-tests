@@ -11,6 +11,7 @@ def junitVersion = "5.8.2",
 
 dependencies {
     testImplementation(
+            "com.codeborne:selenide:5.25.0",
             "io.appium:java-client:7.6.0",
             "org.junit.jupiter:junit-jupiter-api:$junitVersion")
     testRuntimeOnly(
